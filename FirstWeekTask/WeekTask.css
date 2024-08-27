@@ -1,0 +1,468 @@
+*{
+    margin: 0;
+    padding: 0; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+body{
+    margin: 0px;
+}
+/*nav1*/
+.n1{
+    background-color: black;
+    padding: 13px;
+    margin: auto;
+}
+.phone{
+    text-align: left;
+    color: white;
+
+}
+.n1 .fa-solid{
+    color: orange;
+}
+.n1>a{
+    display: inline;
+    color: white;
+    margin: auto;
+}
+.email{
+    float: right;
+    color: white;
+}
+/*nav2*/
+.n2{
+    background-color: rgb(209,227,255);
+    display: flex;
+    flex-direction: row;
+}
+.n2 ul{
+    display: flex;
+    flex-direction: row;
+    float: right;
+}
+.n2 a{
+    color: black;
+}
+.n2 li{
+    padding: 10px 25px;
+    color: #000000;
+    text-align: center;
+    list-style: none;
+}
+.le{
+    font-size: 25px;
+}
+.ri{
+    margin-left:auto ;
+    float: right;
+}
+.n2 li a:hover{
+    color:rgb(3,85,204);
+}
+/*section1*/
+.section1{
+    background-color: rgb(209,227,255);
+    height: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    padding-bottom: 90px;
+    padding-bottom: 200px;
+}
+h1{
+    text-transform: uppercase;
+    color: rgb(3,85,204);
+    padding:10px ;
+}
+.divLeft h1{
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+.divLeft{
+    display: inline-block;
+    float: left;
+    width: 50%;
+    margin: auto;
+    padding-left: 90px;
+}
+p{
+    font-size: 20px;
+}
+.divRight{
+    display: inline-block;
+    float: right;
+    width: 50%;
+    margin: auto;
+    
+}
+.or{
+    background-color: rgb(255,138,29);
+    color: white;
+    display: inline-block;
+    width: 170px;
+    height: 50px;
+    border-radius: 6px;
+    text-transform: uppercase;
+    font-size: 17px;
+    border: 1px solid transparent;
+}
+.or:hover{
+    color: rgb(255,138,29);
+    border-color: orange;
+    background-color: transparent;
+}
+button{
+    box-shadow: none;
+    outline: none;
+    border: none;
+}
+/*section-above*/
+.section-above .boxes{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 90%;
+    margin-top: 30px;
+}
+.section-above .box{
+    height: 100px;
+    width: 30%;
+    border: none;
+    box-shadow: 0.3px 0.3px 5px gray;
+    padding: 70px;
+    margin: 10px;
+    margin-top: -150px;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+}
+.section-above .box:hover{
+    background-color: orange;
+    color: white;
+}
+.section-above img{
+    height: 80px;
+    width: 80px;
+    color: gray;
+}
+/*section2*/
+.section2{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    padding-bottom: 90px;
+    padding-top: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.section2 h1{
+    color: black;
+}
+.section2 .divLeft{
+    width: 30%;
+}
+.section2 img{
+    width: 100%;
+}
+.bl{
+    color: white;
+    width: 170px;
+    height: 50px;
+    text-transform: uppercase;
+    background-color: rgb(3,85,204);
+    margin: 10px;
+    text-decoration: none;
+    font-size: 17px;
+    border: 1px solid transparent;
+}
+.bl:hover{
+    color: rgb(3,85,204);
+    background-color: transparent;
+    border-color: rgb(3,85,204);
+}
+/*section3*/
+.section3{
+    background-color: rgb(209,227,255);
+    height: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    padding-bottom: 90px;
+    margin: auto;
+    padding-top: 100px;
+}
+.section3 h1{
+    font-size: 35px;
+
+}
+.section3 .divRight{
+    padding-right: 30px;
+}
+/*section4*/
+.section4{
+    height: 500px;
+    width: 100%;
+    align-items: center;
+    background-size: cover;
+    margin: auto;
+    padding-top: 70px;
+    align-items: center;
+}
+.section4 h1{
+    text-align: center;
+    color: black;
+    font-size: 40px;
+}
+.section4 .boxes{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 90%;
+    margin-top: 30px;
+}
+.section4 .box{
+    height: 50%;
+    width: 30%;
+    border: none;
+    box-shadow: 0.3px 0.3px 5px gray;
+    padding: 40px;
+    margin: auto;
+    margin: 30px;
+    align-items: center;
+    text-align: center;
+}
+.section4 p{
+    font-size: 15px;
+}
+.section4 img{
+    height: 90px;
+    width: 90px;
+    align-items: center;
+}
+.section4 button{
+    align-items: center;
+    text-align: center;
+    display: flexbox;
+    margin-left: 600px;
+}
+/*section5*/
+.section5{
+    height: 500px;
+    width: 100%;
+    align-items: center;
+    background-size: cover;
+    padding-bottom: 120px;
+    margin: auto;
+    padding-top: 70px;
+}
+.section5 h1{
+    text-align: center;
+    color: black;
+    font-size: 40px;
+}
+.section5 .boxes{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+    margin-top: 30px;
+}
+.box1 , .box2{
+    height: 40%;
+    width: 60%;
+    border: none;
+    box-shadow: 0.3px 0.3px 5px gray;
+    padding: 15px;
+    margin: auto;
+    margin: 30px;
+}
+.section5 img{
+    border-radius: 100%;
+    
+}
+.info{
+    padding: 30px;
+}
+.section5 .fa-solid{
+    color: orange;
+}
+.client{
+    display: flex;
+    margin: 10px;
+}
+.section5 .buttons{
+    align-items: center;
+    text-align: center;
+}
+.section5 .bl{
+    width: 70px;
+}
+.section5 .bl:hover{
+    text-decoration: none;
+    background-color: rgb(3,85,204);
+    cursor: pointer;
+}
+.section5 .fa-solid{
+    color: white;
+}
+/*section6*/
+.section6{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    padding-bottom: 150px;
+    margin: auto;
+    padding-top: 90px;
+}
+.section6 h1{
+    color: black;
+}
+input{
+    width: 95%;
+    height: 50px;
+    margin: 10px;
+    border: none;
+    box-shadow: 0.3px 0.3px 5px gray;
+}
+textarea{   
+    width: 95%;
+    height: 150px;
+    margin: 10px;
+    border: none;
+    box-shadow: 0.3px 0.3px 5px gray;
+}
+iframe{
+    margin-top: 90px;
+    width: 90%;
+    height: 380px;
+}
+input::placeholder{
+    margin: 80px;
+    font-size: 20px;
+}
+textarea::placeholder{
+    padding-top: 50px;
+    padding-left: 10px;
+    margin: 60px;
+    font-size: 20px;
+}
+/*section7*/
+.section7{
+    height: 390px;
+    width: 100%;
+    background-color: rgb(10,15,67);
+    align-items: center;
+    background-size: cover;
+    padding-bottom: 90px;
+    margin: auto;
+    padding-top: 50px;
+}
+.section7 h2{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 50px;
+    text-transform: uppercase;
+
+}
+.container{
+    width: 80%;
+    display: flex;
+    column-gap: 0px;
+    align-items: center;
+    position: relative;
+    margin: auto;
+}
+.section7 div{
+    align-items: center;
+}
+.circle{
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+    align-items: center;
+    position: relative;
+    background-color: rgb(3,85,204);
+    border-bottom: white;
+    border-radius: 100%;
+    text-align: center;
+
+}
+.item{
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}
+.container hr{
+    margin: auto -200px;
+    margin-top: 50px;
+}
+hr{
+    flex-grow: 6;
+    border-color: white;
+    margin: auto 80px;
+}
+.section7 p{
+    color: white;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+.section7 .circle:hover{
+    background-color: orange;
+    color: white;
+}
+.follow{
+    color: white;
+    display:flexbox;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.section7 .box{
+    height: 35px;
+    width: 150px;
+    display: block;
+    background-color: white;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    margin-top: -40px;
+}
+.foot{
+    text-align: center;
+    font-weight: 10;
+    margin-top: 30px;
+}
+.section7 a{
+    color: white;
+}
+.section7 i:hover{
+    color: orange;
+}
+.section7 .fa-solid{
+    color: white;
+    margin: 30px;
+}
+.fa-solid:hover{
+    color: white;
+}
+.fa-instagram, .fa-youtube , .fa-twitter , .fa-facebook-f {
+    padding: 2px;
+    margin: 6px;
+    color: rgb(3,85,204);
+}
